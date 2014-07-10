@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.3</Height>
+    <Weight>5.5</Weight>
+    <Male>875</Male>
+    <Female>125</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>30</HP>
+    <Atk>30</Atk>
+    <Def>42</Def>
+    <SpAtk>30</SpAtk>
+    <SpDef>42</SpDef>
+    <Speed>70</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Bug</Type1>
+    <Type2>Flying</Type2>
+    <Ability1>Honey Gather</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Hustle</Ability3>
+    <Exp>49</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Sweet Scent</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Gust</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Bug Bite</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>29</Level>
+        <Name>Bug Buzz</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves />
+    <EggMoves />
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Tailwind</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Air Cutter</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

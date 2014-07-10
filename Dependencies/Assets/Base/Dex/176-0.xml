@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.6</Height>
+    <Weight>3.2</Weight>
+    <Male>875</Male>
+    <Female>125</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>55</HP>
+    <Atk>40</Atk>
+    <Def>85</Def>
+    <SpAtk>80</SpAtk>
+    <SpDef>105</SpDef>
+    <Speed>40</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Fairy</Type1>
+    <Type2>Flying</Type2>
+    <Ability1>Hustle</Ability1>
+    <Ability2>Serene Grace</Ability2>
+    <Ability3>Super Luck</Ability3>
+    <Exp>142</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Magical Leaf</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Growl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Charm</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Metronome</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Sweet Kiss</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Metronome</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>9</Level>
+        <Name>Sweet Kiss</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Yawn</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>14</Level>
+        <Name>Fairy Wind</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>17</Level>
+        <Name>Encore</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>21</Level>
+        <Name>Follow Me</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Bestow</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>29</Level>
+        <Name>Wish</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Ancient Power</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Safeguard</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>41</Level>
+        <Name>Baton Pass</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>45</Level>
+        <Name>Double-Edge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>49</Level>
+        <Name>Last Resort</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>53</Level>
+        <Name>After You</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Psyshock</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hyper Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Light Screen</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Roost</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Safeguard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brick Break</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Reflect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flamethrower</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fire Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Aerial Ace</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Echoed Voice</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Steel Wing</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fling</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Incinerate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Retaliate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Giga Impact</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psych Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dream Eater</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Grass Knot</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dazzling Gleam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fly</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Telekinesis</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Work Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Water Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shock Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Drain Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Silver Wind</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Defog</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Extrasensory</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Foresight</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Future Sight</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Lucky Chant</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mirror Move</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Morning Sun</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Nasty Plot</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Peck</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Present</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Psycho Shift</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Secret Power</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Stored Power</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Substitute</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

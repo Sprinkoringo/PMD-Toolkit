@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>1</Height>
+    <Weight>20</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>65</HP>
+    <Atk>65</Atk>
+    <Def>65</Def>
+    <SpAtk>50</SpAtk>
+    <SpDef>50</SpDef>
+    <Speed>90</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Water</Type1>
+    <Type2>None</Type2>
+    <Ability1>Water Absorb</Ability1>
+    <Ability2>Damp</Ability2>
+    <Ability3>Swift Swim</Ability3>
+    <Exp>135</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Water Sport</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Bubble</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Hypnosis</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Bubble</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>8</Level>
+        <Name>Hypnosis</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>11</Level>
+        <Name>Water Gun</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Double Slap</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>18</Level>
+        <Name>Rain Dance</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>21</Level>
+        <Name>Body Slam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>27</Level>
+        <Name>Bubble Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>32</Level>
+        <Name>Mud Shot</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Belly Drum</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>43</Level>
+        <Name>Wake-Up Slap</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>48</Level>
+        <Name>Hydro Pump</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>53</Level>
+        <Name>Mud Bomb</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hail</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Ice Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Blizzard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Earthquake</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dig</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brick Break</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Scald</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fling</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulldoze</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Power-Up Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Surf</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Waterfall</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dive</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Water Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Whirlpool</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Ice Ball</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Bubble Beam</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Encore</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Endeavor</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Endure</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Haze</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mind Reader</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mist</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mud Shot</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Refresh</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Splash</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Water Pulse</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Water Sport</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Haze</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Water Pulse</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

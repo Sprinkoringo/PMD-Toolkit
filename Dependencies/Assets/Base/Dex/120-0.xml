@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.8</Height>
+    <Weight>34.5</Weight>
+    <Male>0</Male>
+    <Female>0</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>30</HP>
+    <Atk>45</Atk>
+    <Def>55</Def>
+    <SpAtk>70</SpAtk>
+    <SpDef>55</SpDef>
+    <Speed>85</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Water</Type1>
+    <Type2>None</Type2>
+    <Ability1>Illuminate</Ability1>
+    <Ability2>Natural Cure</Ability2>
+    <Ability3>Analytic</Ability3>
+    <Exp>68</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Harden</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>6</Level>
+        <Name>Water Gun</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Rapid Spin</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>12</Level>
+        <Name>Recover</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Camouflage</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>18</Level>
+        <Name>Swift</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>22</Level>
+        <Name>Bubble Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Minimize</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>30</Level>
+        <Name>Gyro Ball</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Light Screen</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>36</Level>
+        <Name>Brine</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>40</Level>
+        <Name>Reflect Type</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>43</Level>
+        <Name>Power Gem</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>48</Level>
+        <Name>Cosmic Power</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>52</Level>
+        <Name>Hydro Pump</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hail</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Ice Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Blizzard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Light Screen</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunderbolt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Reflect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Scald</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Gyro Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psych Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash Cannon</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dazzling Gleam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Surf</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Waterfall</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dive</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Water Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brine</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Recycle</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Whirlpool</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves />
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Icy Wind</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Recycle</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

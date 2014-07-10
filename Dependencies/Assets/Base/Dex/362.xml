@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Glalie</Name>
+    <SpeciesName>Face</SpeciesName>
+    <GrowthGroup>MediumFast</GrowthGroup>
+    <EggGroup1>Fairy</EggGroup1>
+    <EggGroup2>Mineral</EggGroup2>
+  </General>
+</DexEntry>

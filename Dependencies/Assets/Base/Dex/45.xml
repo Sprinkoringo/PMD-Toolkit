@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Vileplume</Name>
+    <SpeciesName>Flower</SpeciesName>
+    <GrowthGroup>MediumSlow</GrowthGroup>
+    <EggGroup1>Grass</EggGroup1>
+    <EggGroup2>Undiscovered</EggGroup2>
+  </General>
+</DexEntry>

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.6</Height>
+    <Weight>105</Weight>
+    <Male>875</Male>
+    <Female>125</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>135</HP>
+    <Atk>85</Atk>
+    <Def>40</Def>
+    <SpAtk>40</SpAtk>
+    <SpDef>85</SpDef>
+    <Speed>5</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Normal</Type1>
+    <Type2>None</Type2>
+    <Ability1>Pickup</Ability1>
+    <Ability2>Thick Fat</Ability2>
+    <Ability3>Gluttony</Ability3>
+    <Exp>78</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Last Resort</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Snatch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Lick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Metronome</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Odor Sleuth</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>4</Level>
+        <Name>Defense Curl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>9</Level>
+        <Name>Amnesia</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>12</Level>
+        <Name>Lick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>17</Level>
+        <Name>Chip Away</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Screech</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Body Slam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>28</Level>
+        <Name>Stockpile</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Swallow</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>36</Level>
+        <Name>Rollout</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>41</Level>
+        <Name>Fling</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>44</Level>
+        <Name>Belly Drum</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>49</Level>
+        <Name>Natural Gift</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>52</Level>
+        <Name>Snatch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>57</Level>
+        <Name>Last Resort</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Ice Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunderbolt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Earthquake</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brick Break</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flamethrower</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Tomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fling</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Power-Up Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Surf</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Blizzard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sandstorm</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fire Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Incinerate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Retaliate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulldoze</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Work Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Water Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shock Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Recycle</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Whirlpool</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Climb</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Belch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Counter</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Curse</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Pursuit</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Self-Destruct</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Whirlwind</Name>
+      </EggMove>
+      <EggMove>
+        <Name>After You</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Charm</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Double-Edge</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Fissure</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Lick</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Natural Gift</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Zen Headbutt</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Curse</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Self-Destruct</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

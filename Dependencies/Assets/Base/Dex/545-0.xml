@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>2.5</Height>
+    <Weight>200.5</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>60</HP>
+    <Atk>90</Atk>
+    <Def>89</Def>
+    <SpAtk>55</SpAtk>
+    <SpDef>69</SpDef>
+    <Speed>112</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Bug</Type1>
+    <Type2>Poison</Type2>
+    <Ability1>Poison Point</Ability1>
+    <Ability2>Swarm</Ability2>
+    <Ability3>Speed Boost</Ability3>
+    <Exp>214</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Megahorn</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Defense Curl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Rollout</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Poison Sting</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Screech</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Poison Sting</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>8</Level>
+        <Name>Screech</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>12</Level>
+        <Name>Pursuit</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Protect</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>19</Level>
+        <Name>Poison Tail</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>23</Level>
+        <Name>Bug Bite</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>28</Level>
+        <Name>Venoshock</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>30</Level>
+        <Name>Baton Pass</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Agility</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>39</Level>
+        <Name>Steamroller</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>44</Level>
+        <Name>Toxic</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>47</Level>
+        <Name>Venom Drench</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>50</Level>
+        <Name>Rock Climb</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>55</Level>
+        <Name>Double-Edge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>65</Level>
+        <Name>Megahorn</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Venoshock</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hyper Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Earthquake</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dig</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sludge Bomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Tomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Payback</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Giga Impact</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Gyro Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swords Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Struggle Bug</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulldoze</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>X-Scissor</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Infestation</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Poison Jab</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Cut</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Spikes</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Take Down</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Toxic Spikes</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Twineedle</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Pin Missile</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rock Climb</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Toxic Spikes</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Superpower</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

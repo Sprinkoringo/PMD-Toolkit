@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>1.5</Height>
+    <Weight>81.5</Weight>
+    <Male>250</Male>
+    <Female>750</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>86</HP>
+    <Atk>68</Atk>
+    <Def>72</Def>
+    <SpAtk>109</SpAtk>
+    <SpDef>66</SpDef>
+    <Speed>106</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Fire</Type1>
+    <Type2>Normal</Type2>
+    <Ability1>Rivalry</Ability1>
+    <Ability2>Unnerve</Ability2>
+    <Ability3>Moxie</Ability3>
+    <Exp>177</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Hyper Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Leer</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Ember</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>8</Level>
+        <Name>Work Up</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>11</Level>
+        <Name>Headbutt</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Noble Roar</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Take Down</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>23</Level>
+        <Name>Fire Fang</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>28</Level>
+        <Name>Endeavor</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Echoed Voice</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>38</Level>
+        <Name>Flamethrower</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>42</Level>
+        <Name>Crunch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>48</Level>
+        <Name>Hyper Voice</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>51</Level>
+        <Name>Incinerate</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>57</Level>
+        <Name>Overheat</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Roar</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Taunt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hyper Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dig</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flamethrower</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fire Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flame Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Echoed Voice</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Overheat</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Incinerate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Will-O-Wisp</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Payback</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Retaliate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Giga Impact</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulldoze</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Wild Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Snarl</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dark Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Entrainment</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Fire Spin</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Snatch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Yawn</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

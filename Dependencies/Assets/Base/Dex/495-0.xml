@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.6</Height>
+    <Weight>8.1</Weight>
+    <Male>875</Male>
+    <Female>125</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>45</HP>
+    <Atk>45</Atk>
+    <Def>55</Def>
+    <SpAtk>45</SpAtk>
+    <SpDef>55</SpDef>
+    <Speed>63</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Grass</Type1>
+    <Type2>None</Type2>
+    <Ability1>Overgrow</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Contrary</Ability3>
+    <Exp>28</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>4</Level>
+        <Name>Leer</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>7</Level>
+        <Name>Vine Whip</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Wrap</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Growth</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>16</Level>
+        <Name>Leaf Tornado</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>19</Level>
+        <Name>Leech Seed</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>22</Level>
+        <Name>Mega Drain</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Slam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>28</Level>
+        <Name>Leaf Blade</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>31</Level>
+        <Name>Coil</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>34</Level>
+        <Name>Giga Drain</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Wring Out</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>40</Level>
+        <Name>Gastro Acid</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>43</Level>
+        <Name>Leaf Storm</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Calm Mind</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Taunt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Light Screen</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Safeguard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Reflect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Aerial Ace</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Torment</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Energy Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swords Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Grass Knot</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Cut</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Glare</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Grassy Terrain</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Captivate</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Iron Tail</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Magical Leaf</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mean Look</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mirror Coat</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Natural Gift</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Pursuit</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Sweet Scent</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Twister</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Growth</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Synthesis</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Aromatherapy</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

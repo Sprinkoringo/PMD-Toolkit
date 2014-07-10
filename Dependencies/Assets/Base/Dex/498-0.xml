@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.5</Height>
+    <Weight>9.9</Weight>
+    <Male>875</Male>
+    <Female>125</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>65</HP>
+    <Atk>63</Atk>
+    <Def>45</Def>
+    <SpAtk>45</SpAtk>
+    <SpDef>45</SpDef>
+    <Speed>45</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Fire</Type1>
+    <Type2>None</Type2>
+    <Ability1>Blaze</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Thick Fat</Ability3>
+    <Exp>28</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>3</Level>
+        <Name>Tail Whip</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>7</Level>
+        <Name>Ember</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>9</Level>
+        <Name>Odor Sleuth</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Defense Curl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Flame Charge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>19</Level>
+        <Name>Smog</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>21</Level>
+        <Name>Rollout</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Take Down</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>27</Level>
+        <Name>Heat Crash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>31</Level>
+        <Name>Assurance</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Flamethrower</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Head Smash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>39</Level>
+        <Name>Roar</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>43</Level>
+        <Name>Flare Blitz</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Taunt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flamethrower</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Tomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flame Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Echoed Voice</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Will-O-Wisp</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Gyro Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Grass Knot</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Roar</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fire Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Overheat</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Incinerate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Wild Charge</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Heavy Slam</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Sucker Punch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Superpower</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Body Slam</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Covet</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Curse</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Endeavor</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Magnitude</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Sleep Talk</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Thrash</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Yawn</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

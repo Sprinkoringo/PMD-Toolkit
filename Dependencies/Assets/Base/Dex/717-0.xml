@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>5.8</Height>
+    <Weight>203</Weight>
+    <Male>0</Male>
+    <Female>0</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>126</HP>
+    <Atk>131</Atk>
+    <Def>95</Def>
+    <SpAtk>131</SpAtk>
+    <SpDef>98</SpDef>
+    <Speed>99</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Dark</Type1>
+    <Type2>Flying</Type2>
+    <Ability1>Dark Aura</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>None</Ability3>
+    <Exp>0</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Hurricane</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Razor Wind</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Taunt</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Roost</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Double Team</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Air Slash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>18</Level>
+        <Name>Snarl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>26</Level>
+        <Name>Oblivion Wing</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>35</Level>
+        <Name>Disable</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>44</Level>
+        <Name>Dark Pulse</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>51</Level>
+        <Name>Foul Play</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>55</Level>
+        <Name>Phantom Force</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>59</Level>
+        <Name>Psychic</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>63</Level>
+        <Name>Dragon Rush</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>72</Level>
+        <Name>Focus Blast</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>80</Level>
+        <Name>Sucker Punch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>88</Level>
+        <Name>Hyper Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>93</Level>
+        <Name>Sky Attack</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Hone Claws</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dragon Claw</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Taunt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hyper Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Roost</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Aerial Ace</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Torment</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Steel Wing</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sky Drop</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Acrobatics</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Embargo</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Claw</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Giga Impact</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dream Eater</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>U-turn</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Snarl</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dark Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Cut</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fly</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves />
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

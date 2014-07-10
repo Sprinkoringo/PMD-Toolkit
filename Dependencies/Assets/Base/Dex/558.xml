@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Crustle</Name>
+    <SpeciesName>Stone Home</SpeciesName>
+    <GrowthGroup>MediumFast</GrowthGroup>
+    <EggGroup1>Bug</EggGroup1>
+    <EggGroup2>Mineral</EggGroup2>
+  </General>
+</DexEntry>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.8</Height>
+    <Weight>29.8</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>45</HP>
+    <Atk>60</Atk>
+    <Def>32</Def>
+    <SpAtk>50</SpAtk>
+    <SpDef>32</SpDef>
+    <Speed>76</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Electric</Type1>
+    <Type2>None</Type2>
+    <Ability1>Lightningrod</Ability1>
+    <Ability2>Motor Drive</Ability2>
+    <Ability3>Sap Sipper</Ability3>
+    <Exp>59</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Quick Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>4</Level>
+        <Name>Tail Whip</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>8</Level>
+        <Name>Charge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>11</Level>
+        <Name>Shock Wave</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Thunder Wave</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>18</Level>
+        <Name>Flame Charge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>22</Level>
+        <Name>Pursuit</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Spark</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>29</Level>
+        <Name>Stomp</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>32</Level>
+        <Name>Discharge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>36</Level>
+        <Name>Agility</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>39</Level>
+        <Name>Wild Charge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>43</Level>
+        <Name>Thrash</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Light Screen</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunderbolt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flame Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Charge Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Volt Switch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Wild Charge</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Snatch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Double-Edge</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Double Kick</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Endure</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Me First</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rage</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Sand Attack</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Screech</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Shock Wave</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Take Down</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

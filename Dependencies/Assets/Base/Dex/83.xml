@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Farfetch'd</Name>
+    <SpeciesName>Wild Duck</SpeciesName>
+    <GrowthGroup>MediumFast</GrowthGroup>
+    <EggGroup1>Flying</EggGroup1>
+    <EggGroup2>Field</EggGroup2>
+  </General>
+</DexEntry>

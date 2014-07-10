@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Snowy</FormName>
+    <Height>0.3</Height>
+    <Weight>0.8</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>70</HP>
+    <Atk>70</Atk>
+    <Def>70</Def>
+    <SpAtk>70</SpAtk>
+    <SpDef>70</SpDef>
+    <Speed>70</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Ice</Type1>
+    <Type2>None</Type2>
+    <Ability1>Forecast</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>None</Ability3>
+    <Exp>147</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Water Gun</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Ember</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Powder Snow</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Headbutt</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Rain Dance</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Sunny Day</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Hail</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>30</Level>
+        <Name>Weather Ball</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>40</Level>
+        <Name>Hydro Pump</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>40</Level>
+        <Name>Fire Blast</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>40</Level>
+        <Name>Blizzard</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hail</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Ice Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Blizzard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunderbolt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flamethrower</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sandstorm</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fire Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Energy Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Scald</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Incinerate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Retaliate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psych Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Work Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Water Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shock Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Avalanche</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Amnesia</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Cosmic Power</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Guard Swap</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Reflect Type</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Clear Smog</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Disable</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Hex</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Future Sight</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Lucky Chant</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Ominous Wind</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Psych Up</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Ominous Wind</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Water Pulse</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

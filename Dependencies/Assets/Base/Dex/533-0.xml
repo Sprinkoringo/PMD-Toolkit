@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>1.2</Height>
+    <Weight>40</Weight>
+    <Male>750</Male>
+    <Female>250</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>85</HP>
+    <Atk>105</Atk>
+    <Def>85</Def>
+    <SpAtk>40</SpAtk>
+    <SpDef>50</SpDef>
+    <Speed>40</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Fighting</Type1>
+    <Type2>None</Type2>
+    <Ability1>Guts</Ability1>
+    <Ability2>Sheer Force</Ability2>
+    <Ability3>Iron Fist</Ability3>
+    <Exp>142</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Pound</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Leer</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Focus Energy</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Bide</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>4</Level>
+        <Name>Focus Energy</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>8</Level>
+        <Name>Bide</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>12</Level>
+        <Name>Low Kick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>16</Level>
+        <Name>Rock Throw</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Wake-Up Slap</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>24</Level>
+        <Name>Chip Away</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>29</Level>
+        <Name>Bulk Up</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Rock Slide</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Dynamic Punch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>41</Level>
+        <Name>Scary Face</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>45</Level>
+        <Name>Hammer Arm</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>49</Level>
+        <Name>Stone Edge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>53</Level>
+        <Name>Focus Punch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>57</Level>
+        <Name>Superpower</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulk Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Taunt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Smack Down</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dig</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brick Break</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Tomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Low Sweep</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fling</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Payback</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Retaliate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Stone Edge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Poison Jab</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Grass Knot</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Power-Up Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Work Up</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Comet Punch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Counter</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Detect</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Drain Punch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Endure</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Force Palm</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Foresight</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mach Punch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Reversal</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Wide Guard</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Mach Punch</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Drain Punch</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

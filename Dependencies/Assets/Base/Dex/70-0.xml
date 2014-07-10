@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>1</Height>
+    <Weight>6.4</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>65</HP>
+    <Atk>90</Atk>
+    <Def>50</Def>
+    <SpAtk>85</SpAtk>
+    <SpDef>45</SpDef>
+    <Speed>55</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Grass</Type1>
+    <Type2>Poison</Type2>
+    <Ability1>Chlorophyll</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Gluttony</Ability3>
+    <Exp>137</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Vine Whip</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Growth</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Wrap</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>7</Level>
+        <Name>Growth</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>11</Level>
+        <Name>Wrap</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Sleep Powder</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Poison Powder</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>17</Level>
+        <Name>Stun Spore</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>23</Level>
+        <Name>Acid</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>27</Level>
+        <Name>Knock Off</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>29</Level>
+        <Name>Sweet Scent</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>35</Level>
+        <Name>Gastro Acid</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>39</Level>
+        <Name>Razor Leaf</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>41</Level>
+        <Name>Slam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>47</Level>
+        <Name>Wring Out</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Venoshock</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Reflect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sludge Bomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Energy Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swords Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Infestation</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Grass Knot</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Nature Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Cut</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bullet Seed</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Giga Drain</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Acid Spray</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Belch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Leech Life</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Power Whip</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Weather Ball</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Bullet Seed</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Clear Smog</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Encore</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Giga Drain</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Ingrain</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Magical Leaf</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Natural Gift</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Synthesis</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Tickle</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Worry Seed</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Reflect</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Swords Dance</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.3</Height>
+    <Weight>4</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>30</HP>
+    <Atk>65</Atk>
+    <Def>100</Def>
+    <SpAtk>45</SpAtk>
+    <SpDef>25</SpDef>
+    <Speed>40</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Water</Type1>
+    <Type2>None</Type2>
+    <Ability1>Shell Armor</Ability1>
+    <Ability2>Skill Link</Ability2>
+    <Ability3>Overcoat</Ability3>
+    <Exp>61</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>4</Level>
+        <Name>Withdraw</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>8</Level>
+        <Name>Supersonic</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Icicle Spear</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>16</Level>
+        <Name>Protect</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Leer</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Clamp</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>28</Level>
+        <Name>Ice Shard</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>32</Level>
+        <Name>Razor Shell</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Aurora Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>40</Level>
+        <Name>Whirlpool</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>44</Level>
+        <Name>Brine</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>49</Level>
+        <Name>Iron Defense</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>52</Level>
+        <Name>Ice Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>56</Level>
+        <Name>Shell Smash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>61</Level>
+        <Name>Hydro Pump</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hail</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Ice Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Blizzard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Explosion</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Payback</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Surf</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dive</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Water Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brine</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Whirlpool</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Safeguard</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Icicle Spear</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rock Blast</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Take Down</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Twineedle</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Aqua Ring</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Avalanche</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Barrier</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Bubble Beam</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mud Shot</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rapid Spin</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Screech</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Water Pulse</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Barrier</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Icy Wind</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

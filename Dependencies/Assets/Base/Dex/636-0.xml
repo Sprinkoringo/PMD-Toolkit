@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>1.1</Height>
+    <Weight>28.8</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>55</HP>
+    <Atk>85</Atk>
+    <Def>55</Def>
+    <SpAtk>50</SpAtk>
+    <SpDef>55</SpDef>
+    <Speed>60</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Bug</Type1>
+    <Type2>Fire</Type2>
+    <Ability1>Flame Body</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Swarm</Ability3>
+    <Exp>72</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Ember</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>String Shot</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Leech Life</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Take Down</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>30</Level>
+        <Name>Flame Charge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>40</Level>
+        <Name>Bug Bite</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>50</Level>
+        <Name>Double-Edge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>60</Level>
+        <Name>Flame Wheel</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>70</Level>
+        <Name>Bug Buzz</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>80</Level>
+        <Name>Amnesia</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>90</Level>
+        <Name>Thrash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>100</Level>
+        <Name>Flare Blitz</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Calm Mind</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Light Screen</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Safeguard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Solar Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flamethrower</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fire Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flame Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Overheat</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Incinerate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Will-O-Wisp</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Acrobatics</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Struggle Bug</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>U-turn</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Wild Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Morning Sun</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Endure</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Foresight</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Harden</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Magnet Rise</Name>
+      </EggMove>
+      <EggMove>
+        <Name>String Shot</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Zen Headbutt</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

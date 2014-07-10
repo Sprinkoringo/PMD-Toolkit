@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>1.5</Height>
+    <Weight>49.8</Weight>
+    <Male>1000</Male>
+    <Female>0</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>50</HP>
+    <Atk>120</Atk>
+    <Def>53</Def>
+    <SpAtk>35</SpAtk>
+    <SpDef>110</SpDef>
+    <Speed>87</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Fighting</Type1>
+    <Type2>None</Type2>
+    <Ability1>Limber</Ability1>
+    <Ability2>Reckless</Ability2>
+    <Ability3>Unburden</Ability3>
+    <Exp>159</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Revenge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Double Kick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Meditate</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>9</Level>
+        <Name>Rolling Kick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Jump Kick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>17</Level>
+        <Name>Brick Break</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>21</Level>
+        <Name>Focus Energy</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Feint</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>29</Level>
+        <Name>High Jump Kick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Mind Reader</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Foresight</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>41</Level>
+        <Name>Wide Guard</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>45</Level>
+        <Name>Blaze Kick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>49</Level>
+        <Name>Endure</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>53</Level>
+        <Name>Mega Kick</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>57</Level>
+        <Name>Close Combat</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>61</Level>
+        <Name>Reversal</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulk Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Earthquake</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brick Break</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Tomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Low Sweep</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fling</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Retaliate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Stone Edge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulldoze</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Work Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Poison Jab</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Climb</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Bullet Punch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Vacuum Wave</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Counter</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Endure</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Feint</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Helping Hand</Name>
+      </EggMove>
+      <EggMove>
+        <Name>High Jump Kick</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mach Punch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mind Reader</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Pursuit</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rapid Spin</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

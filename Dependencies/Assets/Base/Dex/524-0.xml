@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.4</Height>
+    <Weight>18</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>55</HP>
+    <Atk>75</Atk>
+    <Def>85</Def>
+    <SpAtk>25</SpAtk>
+    <SpDef>25</SpDef>
+    <Speed>15</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Rock</Type1>
+    <Type2>None</Type2>
+    <Ability1>Sturdy</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Sand Force</Ability3>
+    <Exp>56</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>4</Level>
+        <Name>Harden</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>7</Level>
+        <Name>Sand Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Headbutt</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>14</Level>
+        <Name>Rock Blast</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>17</Level>
+        <Name>Mud-Slap</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Iron Defense</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>23</Level>
+        <Name>Smack Down</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>27</Level>
+        <Name>Rock Slide</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>30</Level>
+        <Name>Stealth Rock</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Sandstorm</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>36</Level>
+        <Name>Stone Edge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>40</Level>
+        <Name>Explosion</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Smack Down</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Earthquake</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sandstorm</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Tomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Explosion</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Polish</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Stone Edge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulldoze</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash Cannon</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Wide Guard</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Autotomize</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Curse</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Gravity</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Heavy Slam</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Lock-On</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Magnitude</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Take Down</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

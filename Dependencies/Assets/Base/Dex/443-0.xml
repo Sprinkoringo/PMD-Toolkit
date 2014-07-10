@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.7</Height>
+    <Weight>20.5</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>58</HP>
+    <Atk>70</Atk>
+    <Def>45</Def>
+    <SpAtk>40</SpAtk>
+    <SpDef>45</SpDef>
+    <Speed>42</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Dragon</Type1>
+    <Type2>Ground</Type2>
+    <Ability1>Sand Veil</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Rough Skin</Ability3>
+    <Exp>60</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>3</Level>
+        <Name>Sand Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>7</Level>
+        <Name>Dragon Rage</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Sandstorm</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Take Down</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>19</Level>
+        <Name>Sand Tomb</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>25</Level>
+        <Name>Slash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>27</Level>
+        <Name>Dragon Claw</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>31</Level>
+        <Name>Dig</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Dragon Rush</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Hone Claws</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dragon Claw</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Roar</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Earthquake</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dig</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flamethrower</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sandstorm</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fire Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Tomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Aerial Ace</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Incinerate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Claw</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Stone Edge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Bulldoze</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Cut</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dragon Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Stealth Rock</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Climb</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Body Slam</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Double-Edge</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Dragon Breath</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Iron Head</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Iron Tail</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Metal Claw</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mud Shot</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Outrage</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rock Climb</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Sand Tomb</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Scary Face</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Thrash</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Twister</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Outrage</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Endure</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

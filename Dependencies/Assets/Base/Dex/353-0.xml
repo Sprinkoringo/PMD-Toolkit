@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.6</Height>
+    <Weight>2.3</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>44</HP>
+    <Atk>75</Atk>
+    <Def>35</Def>
+    <SpAtk>63</SpAtk>
+    <SpDef>33</SpDef>
+    <Speed>45</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Ghost</Type1>
+    <Type2>None</Type2>
+    <Ability1>Insomnia</Ability1>
+    <Ability2>Frisk</Ability2>
+    <Ability3>Cursed Body</Ability3>
+    <Exp>59</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Knock Off</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>4</Level>
+        <Name>Screech</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>7</Level>
+        <Name>Night Shade</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Spite</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Will-O-Wisp</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>16</Level>
+        <Name>Shadow Sneak</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>19</Level>
+        <Name>Curse</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>22</Level>
+        <Name>Feint Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>26</Level>
+        <Name>Hex</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>30</Level>
+        <Name>Shadow Ball</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>34</Level>
+        <Name>Sucker Punch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>38</Level>
+        <Name>Embargo</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>42</Level>
+        <Name>Snatch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>46</Level>
+        <Name>Grudge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>50</Level>
+        <Name>Trick</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Calm Mind</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Taunt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunderbolt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Torment</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Charge Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Will-O-Wisp</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Embargo</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Payback</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psych Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Infestation</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dream Eater</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Trick Room</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dark Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dazzling Gleam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Telekinesis</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shock Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Skill Swap</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Snatch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Astonish</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Confuse Ray</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Destiny Bond</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Disable</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Foresight</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Gunk Shot</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Imprison</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Ominous Wind</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Phantom Force</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Pursuit</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Shadow Sneak</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Payback</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Destiny Bond</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Pain Split</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

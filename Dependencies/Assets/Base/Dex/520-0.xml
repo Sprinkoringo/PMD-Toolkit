@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.6</Height>
+    <Weight>15</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>62</HP>
+    <Atk>77</Atk>
+    <Def>62</Def>
+    <SpAtk>50</SpAtk>
+    <SpDef>42</SpDef>
+    <Speed>65</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Normal</Type1>
+    <Type2>Flying</Type2>
+    <Ability1>Big Pecks</Ability1>
+    <Ability2>Super Luck</Ability2>
+    <Ability3>Rivalry</Ability3>
+    <Exp>125</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Gust</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Growl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Leer</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Quick Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>4</Level>
+        <Name>Growl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>8</Level>
+        <Name>Leer</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>11</Level>
+        <Name>Quick Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Air Cutter</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>18</Level>
+        <Name>Roost</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>23</Level>
+        <Name>Detect</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>27</Level>
+        <Name>Taunt</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>32</Level>
+        <Name>Air Slash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>36</Level>
+        <Name>Razor Wind</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>41</Level>
+        <Name>Feather Dance</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>45</Level>
+        <Name>Swagger</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>50</Level>
+        <Name>Facade</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>54</Level>
+        <Name>Tailwind</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>59</Level>
+        <Name>Sky Attack</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Taunt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Aerial Ace</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Echoed Voice</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Work Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Pluck</Name>
+      </TMMove>
+      <TMMove>
+        <Name>U-turn</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fly</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Night Slash</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Wish</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Bestow</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Hypnosis</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Lucky Chant</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Morning Sun</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Uproar</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Steel Wing</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

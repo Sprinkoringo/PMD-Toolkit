@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.4</Height>
+    <Weight>10.1</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>41</HP>
+    <Atk>50</Atk>
+    <Def>37</Def>
+    <SpAtk>50</SpAtk>
+    <SpDef>37</SpDef>
+    <Speed>66</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Dark</Type1>
+    <Type2>None</Type2>
+    <Ability1>Limber</Ability1>
+    <Ability2>Unburden</Ability2>
+    <Ability3>Prankster</Ability3>
+    <Exp>56</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Scratch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>3</Level>
+        <Name>Growl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>6</Level>
+        <Name>Assist</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Sand Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>12</Level>
+        <Name>Fury Swipes</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Pursuit</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>19</Level>
+        <Name>Torment</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>21</Level>
+        <Name>Fake Out</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>24</Level>
+        <Name>Hone Claws</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>28</Level>
+        <Name>Assurance</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>30</Level>
+        <Name>Slash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>33</Level>
+        <Name>Captivate</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Night Slash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>39</Level>
+        <Name>Snatch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>42</Level>
+        <Name>Nasty Plot</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>46</Level>
+        <Name>Sucker Punch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>49</Level>
+        <Name>Play Rough</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Hone Claws</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Taunt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Torment</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Echoed Voice</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Embargo</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Claw</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Payback</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psych Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dream Eater</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Grass Knot</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>U-turn</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Snarl</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dark Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Cut</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Aerial Ace</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Copycat</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Pay Day</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Charm</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Covet</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Encore</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Feint Attack</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Fake Tears</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Foul Play</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Yawn</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

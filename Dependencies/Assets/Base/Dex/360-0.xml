@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.6</Height>
+    <Weight>14</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>95</HP>
+    <Atk>23</Atk>
+    <Def>48</Def>
+    <SpAtk>23</SpAtk>
+    <SpDef>48</SpDef>
+    <Speed>23</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Psychic</Type1>
+    <Type2>None</Type2>
+    <Ability1>Shadow Tag</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Telepathy</Ability3>
+    <Exp>52</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Splash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Charm</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Encore</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Counter</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Mirror Coat</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Safeguard</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Destiny Bond</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Safeguard</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves />
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Tickle</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

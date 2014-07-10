@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.5</Height>
+    <Weight>4.5</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>50</HP>
+    <Atk>50</Atk>
+    <Def>40</Def>
+    <SpAtk>50</SpAtk>
+    <SpDef>40</SpDef>
+    <Speed>64</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Water</Type1>
+    <Type2>None</Type2>
+    <Ability1>Swift Swim</Ability1>
+    <Ability2>Hydration</Ability2>
+    <Ability3>Water Absorb</Ability3>
+    <Exp>59</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Bubble</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Growl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Supersonic</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>9</Level>
+        <Name>Round</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>12</Level>
+        <Name>Bubble Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>16</Level>
+        <Name>Mud Shot</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Aqua Ring</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>23</Level>
+        <Name>Uproar</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>27</Level>
+        <Name>Muddy Water</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>31</Level>
+        <Name>Rain Dance</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>34</Level>
+        <Name>Flail</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>38</Level>
+        <Name>Echoed Voice</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>42</Level>
+        <Name>Hydro Pump</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>45</Level>
+        <Name>Hyper Voice</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hail</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sludge Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sludge Bomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Echoed Voice</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Scald</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Surf</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>After You</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Earth Power</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mist</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mud Bomb</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Mud Sport</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Refresh</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Snore</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Sleep Talk</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Water Pulse</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Water Pulse</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

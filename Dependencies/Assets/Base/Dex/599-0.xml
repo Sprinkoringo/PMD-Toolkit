@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.3</Height>
+    <Weight>21</Weight>
+    <Male>0</Male>
+    <Female>0</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>40</HP>
+    <Atk>55</Atk>
+    <Def>70</Def>
+    <SpAtk>45</SpAtk>
+    <SpDef>60</SpDef>
+    <Speed>30</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Steel</Type1>
+    <Type2>None</Type2>
+    <Ability1>Plus</Ability1>
+    <Ability2>Minus</Ability2>
+    <Ability3>Clear Body</Ability3>
+    <Exp>60</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Vice Grip</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>6</Level>
+        <Name>Charge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>11</Level>
+        <Name>Thunder Shock</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>16</Level>
+        <Name>Gear Grind</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>21</Level>
+        <Name>Bind</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>26</Level>
+        <Name>Charge Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>31</Level>
+        <Name>Autotomize</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>36</Level>
+        <Name>Mirror Shot</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>39</Level>
+        <Name>Screech</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>42</Level>
+        <Name>Discharge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>45</Level>
+        <Name>Metal Sound</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>48</Level>
+        <Name>Shift Gear</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>50</Level>
+        <Name>Lock-On</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>54</Level>
+        <Name>Zap Cannon</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>57</Level>
+        <Name>Hyper Beam</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hyper Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunderbolt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sandstorm</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Charge Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Polish</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Volt Switch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash Cannon</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Wild Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves />
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

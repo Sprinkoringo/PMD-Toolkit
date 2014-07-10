@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>1.1</Height>
+    <Weight>5</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>60</HP>
+    <Atk>60</Atk>
+    <Def>60</Def>
+    <SpAtk>60</SpAtk>
+    <SpDef>60</SpDef>
+    <Speed>60</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Normal</Type1>
+    <Type2>None</Type2>
+    <Ability1>Own Tempo</Ability1>
+    <Ability2>Tangled Feet</Ability2>
+    <Ability3>Contrary</Ability3>
+    <Exp>126</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Uproar</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Copycat</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>14</Level>
+        <Name>Feint Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>19</Level>
+        <Name>Psybeam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>23</Level>
+        <Name>Hypnosis</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>28</Level>
+        <Name>Dizzy Punch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>32</Level>
+        <Name>Sucker Punch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Teeter Dance</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>41</Level>
+        <Name>Psych Up</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>46</Level>
+        <Name>Double-Edge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>50</Level>
+        <Name>Flail</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>50</Level>
+        <Name>Thrash</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Calm Mind</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Safeguard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dig</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shadow Ball</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brick Break</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Tomb</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fling</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Retaliate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psych Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Work Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dream Eater</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Trick Room</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Wild Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Water Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shock Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Skill Swap</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Snatch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Drain Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Recycle</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Poison Jab</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Guard Split</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Psycho Cut</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Psycho Shift</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Role Play</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Trick</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Assist</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Baton Pass</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Disable</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Encore</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Fake Out</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Fake Tears</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Icy Wind</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rapid Spin</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Smelling Salts</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Water Pulse</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Wish</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rock Slide</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Fake Out</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Superpower</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Sing</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

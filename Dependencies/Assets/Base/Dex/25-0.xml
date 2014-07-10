@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.4</Height>
+    <Weight>6</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>35</HP>
+    <Atk>55</Atk>
+    <Def>30</Def>
+    <SpAtk>50</SpAtk>
+    <SpDef>40</SpDef>
+    <Speed>90</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Electric</Type1>
+    <Type2>None</Type2>
+    <Ability1>Static</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Lightning Rod</Ability3>
+    <Exp>105</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Thunder Shock</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tail Whip</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Growl</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>7</Level>
+        <Name>Play Nice</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Quick Attack</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>13</Level>
+        <Name>Thunder Wave</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>18</Level>
+        <Name>Electro Ball</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>21</Level>
+        <Name>Double Team</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>23</Level>
+        <Name>Nuzzle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>26</Level>
+        <Name>Slam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>29</Level>
+        <Name>Thunderbolt</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>34</Level>
+        <Name>Feint</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>37</Level>
+        <Name>Agility</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>42</Level>
+        <Name>Discharge</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>46</Level>
+        <Name>Light Screen</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>50</Level>
+        <Name>Thunder</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Light Screen</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunderbolt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dig</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brick Break</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Echoed Voice</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fling</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Charge Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Volt Switch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Grass Knot</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Wild Charge</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Smash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Strength</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Iron Tail</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Shock Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Bestow</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Bide</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Charge</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Disarming Voice</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Double Slap</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Encore</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Endure</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Fake Out</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Flail</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Lucky Chant</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Present</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Reversal</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Thunder Punch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Tickle</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Volt Tackle</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Wish</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Celebrate</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Fly</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Iron Tail</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Encore</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Teeter Dance</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Sing</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Extreme Speed</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Volt Tackle</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Headbutt</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Surf</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Yawn</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Present</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Last Resort</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

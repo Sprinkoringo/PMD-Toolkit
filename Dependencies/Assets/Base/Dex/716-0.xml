@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>3</Height>
+    <Weight>215</Weight>
+    <Male>0</Male>
+    <Female>0</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>126</HP>
+    <Atk>131</Atk>
+    <Def>95</Def>
+    <SpAtk>131</SpAtk>
+    <SpDef>98</SpDef>
+    <Speed>99</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Fairy</Type1>
+    <Type2>None</Type2>
+    <Ability1>Fairy Aura</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>None</Ability3>
+    <Exp>0</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Heal Pulse</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Aromatherapy</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Ingrain</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Take Down</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>5</Level>
+        <Name>Light Screen</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Aurora Beam</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>18</Level>
+        <Name>Gravity</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>26</Level>
+        <Name>Geomancy</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>35</Level>
+        <Name>Moonblast</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>44</Level>
+        <Name>Megahorn</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>51</Level>
+        <Name>Night Slash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>55</Level>
+        <Name>Horn Leech</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>59</Level>
+        <Name>Psych Up</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>63</Level>
+        <Name>Misty Terrain</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>72</Level>
+        <Name>Nature Power</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>80</Level>
+        <Name>Close Combat</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>88</Level>
+        <Name>Giga Impact</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>93</Level>
+        <Name>Outrage</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Psyshock</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Calm Mind</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Roar</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hail</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sunny Day</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hyper Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Light Screen</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunderbolt</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psychic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Reflect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Echoed Voice</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Blast</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Giga Impact</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thunder Wave</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Psych Up</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rock Slide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Grass Knot</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Flash Cannon</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Nature Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Dazzling Gleam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Cut</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves />
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

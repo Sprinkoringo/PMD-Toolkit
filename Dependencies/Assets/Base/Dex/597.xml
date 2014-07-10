@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Ferroseed</Name>
+    <SpeciesName>Thorn Seed</SpeciesName>
+    <GrowthGroup>MediumFast</GrowthGroup>
+    <EggGroup1>Grass</EggGroup1>
+    <EggGroup2>Mineral</EggGroup2>
+  </General>
+</DexEntry>

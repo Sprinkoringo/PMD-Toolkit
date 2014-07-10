@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Tyrunt</Name>
+    <SpeciesName>Royal Heir</SpeciesName>
+    <GrowthGroup>MediumFast</GrowthGroup>
+    <EggGroup1>Monster</EggGroup1>
+    <EggGroup2>Dragon</EggGroup2>
+  </General>
+</DexEntry>

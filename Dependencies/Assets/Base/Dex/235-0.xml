@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>1.2</Height>
+    <Weight>58</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>55</HP>
+    <Atk>20</Atk>
+    <Def>35</Def>
+    <SpAtk>20</SpAtk>
+    <SpDef>45</SpDef>
+    <Speed>75</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Normal</Type1>
+    <Type2>None</Type2>
+    <Ability1>Own Tempo</Ability1>
+    <Ability2>Technician</Ability2>
+    <Ability3>Moody</Ability3>
+    <Exp>88</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>11</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>21</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>31</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>41</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>51</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>61</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>71</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>81</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>91</Level>
+        <Name>Sketch</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves />
+    <EggMoves />
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>False Swipe</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Spore</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Odor Sleuth</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Mean Look</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.9</Height>
+    <Weight>16</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>45</HP>
+    <Atk>55</Atk>
+    <Def>45</Def>
+    <SpAtk>65</SpAtk>
+    <SpDef>45</SpDef>
+    <Speed>75</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Ice</Type1>
+    <Type2>Flying</Type2>
+    <Ability1>Vital Spirit</Ability1>
+    <Ability2>Hustle</Ability2>
+    <Ability3>Insomnia</Ability3>
+    <Exp>116</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Present</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Toxic</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hail</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Ice Beam</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Blizzard</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rain Dance</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frustration</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Return</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Brick Break</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Double Team</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Aerial Ace</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Facade</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Rest</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Attract</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Thief</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Round</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fling</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Frost Breath</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Swagger</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Sleep Talk</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Substitute</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Power-Up Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Confide</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Fly</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Pluck</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Focus Punch</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Water Pulse</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Secret Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Endure</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Recycle</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Avalanche</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Captivate</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Natural Gift</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Defog</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves>
+      <EggMove>
+        <Name>Aurora Beam</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Bestow</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Destiny Bond</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Freeze-Dry</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Ice Ball</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Ice Shard</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Spikes</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Fake Out</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Future Sight</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Ice Punch</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Icy Wind</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Quick Attack</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rapid Spin</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Splash</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Ice Shard</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Focus Punch</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

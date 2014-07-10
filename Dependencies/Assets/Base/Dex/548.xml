@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Petilil</Name>
+    <SpeciesName>Bulb</SpeciesName>
+    <GrowthGroup>MediumFast</GrowthGroup>
+    <EggGroup1>Grass</EggGroup1>
+    <EggGroup2>Undiscovered</EggGroup2>
+  </General>
+</DexEntry>

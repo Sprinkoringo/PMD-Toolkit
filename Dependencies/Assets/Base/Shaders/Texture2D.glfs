@@ -1,0 +1,23 @@
+//Texture Color uniform
+uniform vec4 LTextureColor;
+//Texture Unit
+uniform sampler2D LTextureUnit;
+
+#if __VERSION__ >= 130
+
+//Texture coordinate
+in vec2 texCoord;
+
+//Final color
+out vec4 gl_FragColor;
+#else
+
+//Texture coordinate
+varying vec2 texCoord;
+
+#endif
+
+void main() {
+	//Set fragment
+	gl_FragColor = texture2D( LTextureUnit, texCoord ) * LTextureColor;
+}

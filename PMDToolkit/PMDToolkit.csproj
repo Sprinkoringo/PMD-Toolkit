@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{230D324F-73AF-4D03-A65A-EE08E8A46C37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PMDToolkit</RootNamespace>
+    <AssemblyName>PMDToolkit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugNoCopy|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Files\OpenTK\$(Configuration)\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTKPlayer">
+      <HintPath>..\Dependencies\Files\OpenTKPlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Environment.cs" />
+    <Compile Include="Core\Extensions.cs" />
+    <Compile Include="Core\LRUCache.cs" />
+    <Compile Include="Core\MathFunctions.cs" />
+    <Compile Include="Core\MultiNameLRUCache.cs" />
+    <Compile Include="Data\AlgorithmEntry.cs" />
+    <Compile Include="Data\CharAnimation.cs" />
+    <Compile Include="Data\DexEntry.cs" />
+    <Compile Include="Data\DexFormEntry.cs" />
+    <Compile Include="Data\FloorAlgorithm.cs" />
+    <Compile Include="Data\ItemPreset.cs" />
+    <Compile Include="Data\LevelUpMove.cs" />
+    <Compile Include="Data\MoveAnimation.cs" />
+    <Compile Include="Data\MoveRange.cs" />
+    <Compile Include="Data\NpcPreset.cs" />
+    <Compile Include="Data\Paths.cs" />
+    <Compile Include="Data\RDungeonEntry.cs" />
+    <Compile Include="Data\RDungeonFloor.cs" />
+    <Compile Include="Data\RoomAlgorithm.cs" />
+    <Compile Include="Editors\EditList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\EditList.Designer.cs">
+      <DependentUpon>EditList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\IntNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editors\MainPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\MainPanel.Designer.cs">
+      <DependentUpon>MainPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\MapEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\MapEditor.Designer.cs">
+      <DependentUpon>MapEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\MapLayerListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editors\MapLayerEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\MapLayerEditor.Designer.cs">
+      <DependentUpon>MapLayerEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\MapResizeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\MapResizeWindow.Designer.cs">
+      <DependentUpon>MapResizeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\PathTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editors\RDungeonEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\RDungeonEditor.Designer.cs">
+      <DependentUpon>RDungeonEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\EditorManager.cs" />
+    <Compile Include="Editors\ItemEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\ItemEditor.Designer.cs">
+      <DependentUpon>ItemEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\SpellEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\SpellEditor.Designer.cs">
+      <DependentUpon>SpellEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\TileAnimListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Enums.cs" />
+    <Compile Include="Graphics\AnimSheet.cs" />
+    <Compile Include="Graphics\AtlasSheet.cs" />
+    <Compile Include="Graphics\Conversion.cs" />
+    <Compile Include="Graphics\Font.cs" />
+    <Compile Include="Graphics\FontSheet.cs" />
+    <Compile Include="Graphics\RenderTime.cs" />
+    <Compile Include="Graphics\ShaderProgram.cs" />
+    <Compile Include="Graphics\SpriteSheet.cs" />
+    <Compile Include="Graphics\Texture.cs" />
+    <Compile Include="Graphics\TextureManager.cs" />
+    <Compile Include="Graphics\TextureProgram.cs" />
+    <Compile Include="Graphics\TileMetadata.cs" />
+    <Compile Include="Graphics\TileSheet.cs" />
+    <Compile Include="Graphics\VertexData.cs" />
+    <Compile Include="Logic\Display\CharacterOriginAnimation.cs" />
+    <Compile Include="Logic\Display\DrawHelper.cs" />
+    <Compile Include="Logic\Display\IEmitter.cs" />
+    <Compile Include="Logic\Display\ISprite.cs" />
+    <Compile Include="Logic\Display\ItemAnim.cs" />
+    <Compile Include="Logic\Display\FountainEmitter.cs" />
+    <Compile Include="Logic\Display\ParticleAnimation.cs" />
+    <Compile Include="Logic\Display\ReplayMenu.cs" />
+    <Compile Include="Logic\Display\Screen.cs" />
+    <Compile Include="Logic\Display\DisplayMap.cs" />
+    <Compile Include="Logic\Display\Spells\ArrowMoveAnimation.cs" />
+    <Compile Include="Logic\Display\Spells\BeamMoveAnimation.cs" />
+    <Compile Include="Logic\Display\Spells\ISpellSprite.cs" />
+    <Compile Include="Data\GameData.cs" />
+    <Compile Include="Logic\Display\Spells\ItemArrowMoveAnimation.cs" />
+    <Compile Include="Logic\Display\Spells\ItemThrowMoveAnimation.cs" />
+    <Compile Include="Logic\Display\Spells\NormalMoveAnimation.cs" />
+    <Compile Include="Logic\Display\Spells\OverlayMoveAnimation.cs" />
+    <Compile Include="Logic\Display\Spells\ThrowMoveAnimation.cs" />
+    <Compile Include="Logic\Display\Spells\TileMoveAnimation.cs" />
+    <Compile Include="Logic\Display\TextSprite.cs" />
+    <Compile Include="Logic\Gameplay\AI.cs" />
+    <Compile Include="Logic\Gameplay\BattleSetup.cs" />
+    <Compile Include="Logic\Gameplay\Character.cs" />
+    <Compile Include="Logic\Gameplay\Combat.cs" />
+    <Compile Include="Logic\Gameplay\Command.cs" />
+    <Compile Include="Data\ItemEntry.cs" />
+    <Compile Include="Data\MoveEntry.cs" />
+    <Compile Include="Logic\Gameplay\ExtraStatus.cs" />
+    <Compile Include="Logic\Gameplay\FormData.cs" />
+    <Compile Include="Logic\Gameplay\ItemChosenMenu.cs" />
+    <Compile Include="Logic\Gameplay\ItemMenu.cs" />
+    <Compile Include="Logic\Gameplay\MainMenu.cs" />
+    <Compile Include="Logic\Gameplay\MenuBase.cs" />
+    <Compile Include="Logic\Gameplay\Input.cs" />
+    <Compile Include="Logic\Gameplay\MenuManager.cs" />
+    <Compile Include="Logic\Gameplay\MenuText.cs" />
+    <Compile Include="Logic\Gameplay\Move.cs" />
+    <Compile Include="Logic\Gameplay\MoveState.cs" />
+    <Compile Include="Logic\Gameplay\PathTile.cs" />
+    <Compile Include="Logic\Gameplay\SingleStripMenu.cs" />
+    <Compile Include="Logic\Gameplay\SpellMenu.cs" />
+    <Compile Include="Logic\Gameplay\StatusProcessor.cs" />
+    <Compile Include="Logic\Gameplay\Target.cs" />
+    <Compile Include="Logic\Gameplay\TargetCollection.cs" />
+    <Compile Include="Logic\Gameplay\TileTarget.cs" />
+    <Compile Include="Logic\Results\AddItem.cs" />
+    <Compile Include="Logic\Results\BattleMsg.cs" />
+    <Compile Include="Logic\Results\CreateAction.cs" />
+    <Compile Include="Logic\Results\CreateEmitter.cs" />
+    <Compile Include="Logic\Results\CreateAnim.cs" />
+    <Compile Include="Logic\Results\CurrentMoves.cs" />
+    <Compile Include="Logic\Results\Defeated.cs" />
+    <Compile Include="Logic\Results\Fade.cs" />
+    <Compile Include="Logic\Results\FocusCharacter.cs" />
+    <Compile Include="Logic\Results\IResultContainer.cs" />
+    <Compile Include="Logic\Results\MotionResultContainer.cs" />
+    <Compile Include="Logic\Results\RemoveItem.cs" />
+    <Compile Include="Logic\Results\ResultContainer.cs" />
+    <Compile Include="Logic\Results\ResultBranch.cs" />
+    <Compile Include="Logic\Results\SetMovementSpeed.cs" />
+    <Compile Include="Logic\Results\SetStats.cs" />
+    <Compile Include="Logic\Results\SetTile.cs" />
+    <Compile Include="Logic\Results\CreateSpell.cs" />
+    <Compile Include="Logic\Results\SetStatus.cs" />
+    <Compile Include="Logic\Results\Wait.cs" />
+    <Compile Include="Logs\Logger.cs" />
+    <Compile Include="Maps\ActiveMap.cs" />
+    <Compile Include="Maps\BasicMapGroup.cs" />
+    <Compile Include="Maps\BranchLine.cs" />
+    <Compile Include="Maps\Dungeons\FloorByFloor.cs" />
+    <Compile Include="Maps\Dungeons\Mapped.cs" />
+    <Compile Include="Maps\FloorBorder.cs" />
+    <Compile Include="Maps\FloorLink.cs" />
+    <Compile Include="Maps\Floors\BranchRooms.cs" />
+    <Compile Include="Maps\Floors\DungeonArrayHall.cs" />
+    <Compile Include="Maps\Floors\DungeonArrayRoom.cs" />
+    <Compile Include="Maps\Floors\GridRooms.cs" />
+    <Compile Include="Maps\Floors\StandardMap.cs" />
+    <Compile Include="Maps\Item.cs" />
+    <Compile Include="Logic\Display\NpcSprite.cs" />
+    <Compile Include="Logic\Display\CharSprite.cs" />
+    <Compile Include="Logic\Display\PlayerSprite.cs" />
+    <Compile Include="Logic\Gameplay\ActiveChar.cs" />
+    <Compile Include="Logic\Gameplay\Npc.cs" />
+    <Compile Include="Logic\Results\BGM.cs" />
+    <Compile Include="Logic\Results\MeterChanged.cs" />
+    <Compile Include="Logic\Results\Loc.cs" />
+    <Compile Include="Logic\Results\Dir.cs" />
+    <Compile Include="Logic\Results\IResult.cs" />
+    <Compile Include="Logic\Gameplay\Processor.cs" />
+    <Compile Include="Logic\Results\SetMap.cs" />
+    <Compile Include="Logic\Gameplay\Player.cs" />
+    <Compile Include="Logic\Results\RemoveCharacter.cs" />
+    <Compile Include="Logic\Results\SE.cs" />
+    <Compile Include="Logic\Results\SpawnCharacter.cs" />
+    <Compile Include="Maps\BasicDungeon.cs" />
+    <Compile Include="Maps\BasicMap.cs" />
+    <Compile Include="Maps\GeneratorOptions.cs" />
+    <Compile Include="Maps\MapLayer.cs" />
+    <Compile Include="Maps\TileTexture.cs" />
+    <Compile Include="Maps\TileAnim.cs" />
+    <Compile Include="Maps\Loc2D.cs" />
+    <Compile Include="Maps\Loc3D.cs" />
+    <Compile Include="Maps\MapGroup.cs" />
+    <Compile Include="Maps\NpcSpawnData.cs" />
+    <Compile Include="Maps\Operations.cs" />
+    <Compile Include="Maps\RandomMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maps\Tile.cs" />
+    <Compile Include="Maps\TileData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Editors\EditList.resx">
+      <DependentUpon>EditList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\ItemEditor.resx">
+      <DependentUpon>ItemEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\MainPanel.resx">
+      <DependentUpon>MainPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\MapEditor.resx">
+      <DependentUpon>MapEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\MapLayerEditor.resx">
+      <DependentUpon>MapLayerEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\MapResizeWindow.resx">
+      <DependentUpon>MapResizeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\RDungeonEditor.resx">
+      <DependentUpon>RDungeonEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\SpellEditor.resx">
+      <DependentUpon>SpellEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sound\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="BeforeBuild" Condition="'$(Configuration)' == 'Debug' ">
+    <ItemGroup>
+      <OutputAssets Include="$(OutputPath)**\*" Exclude="$(OutputPath)$(TargetName).vshost.exe" />
+    </ItemGroup>
+    <Delete Files="@(OutputAssets)" />
+  </Target>
+  <Target Name="AfterBuild" DependsOnTargets="AfterBuildD;AfterBuildR">
+  </Target>
+  <Target Name="AfterBuildD" Condition="'$(Configuration)' == 'Debug' ">
+    <ItemGroup>
+      <DllFiles Include="..\Dependencies\Files\*.dll" />
+    </ItemGroup>
+    <Copy SourceFiles="@(DllFiles)" DestinationFolder="$(OutputPath)" />
+  </Target>
+  <Target Name="AfterBuildR" Condition="'$(Configuration)' == 'Release' ">
+    <ItemGroup>
+      <BinFiles Include="$(OutputPath)*.dll" />
+      <DllFiles Include="..\Dependencies\Files\*.dll" />
+      <AssetFiles Include="..\Dependencies\Assets\**\*" />
+    </ItemGroup>
+    <RemoveDir Directories="..\Build" />
+    <Copy SourceFiles="$(OutputPath)$(TargetFileName)" DestinationFolder="..\Build\" />
+    <Copy SourceFiles="@(BinFiles)" DestinationFolder="..\Build\" />
+    <Copy SourceFiles="@(DllFiles)" DestinationFolder="..\Build\" />
+    <Copy SourceFiles="@(AssetFiles)" DestinationFolder="..\Build\%(RecursiveDir)" />
+  </Target>
+</Project>

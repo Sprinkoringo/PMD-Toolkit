@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Nuzleaf</Name>
+    <SpeciesName>Wily</SpeciesName>
+    <GrowthGroup>MediumSlow</GrowthGroup>
+    <EggGroup1>Field</EggGroup1>
+    <EggGroup2>Grass</EggGroup2>
+  </General>
+</DexEntry>

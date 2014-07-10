@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Gible</Name>
+    <SpeciesName>Land Shark</SpeciesName>
+    <GrowthGroup>Slow</GrowthGroup>
+    <EggGroup1>Monster</EggGroup1>
+    <EggGroup2>Dragon</EggGroup2>
+  </General>
+</DexEntry>

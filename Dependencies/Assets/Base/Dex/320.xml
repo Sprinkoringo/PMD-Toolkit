@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Wailmer</Name>
+    <SpeciesName>Ball Whale</SpeciesName>
+    <GrowthGroup>Fluctuating</GrowthGroup>
+    <EggGroup1>Field</EggGroup1>
+    <EggGroup2>Water 2</EggGroup2>
+  </General>
+</DexEntry>

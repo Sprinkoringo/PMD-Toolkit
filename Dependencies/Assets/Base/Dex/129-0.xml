@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.9</Height>
+    <Weight>10</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>20</HP>
+    <Atk>10</Atk>
+    <Def>55</Def>
+    <SpAtk>15</SpAtk>
+    <SpDef>20</SpDef>
+    <Speed>80</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Water</Type1>
+    <Type2>None</Type2>
+    <Ability1>Swift Swim</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Rattled</Ability3>
+    <Exp>40</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Splash</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>30</Level>
+        <Name>Flail</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves />
+    <EggMoves />
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Bounce</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

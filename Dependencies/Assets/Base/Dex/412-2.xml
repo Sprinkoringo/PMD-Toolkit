@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Trash Cloak</FormName>
+    <Height>0.2</Height>
+    <Weight>3.4</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>40</HP>
+    <Atk>29</Atk>
+    <Def>45</Def>
+    <SpAtk>29</SpAtk>
+    <SpDef>45</SpDef>
+    <Speed>36</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Bug</Type1>
+    <Type2>None</Type2>
+    <Ability1>Shed Skin</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Overcoat</Ability3>
+    <Exp>45</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Protect</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>10</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Bug Bite</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>20</Level>
+        <Name>Hidden Power</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves>
+      <TMMove>
+        <Name>Hidden Power</Name>
+      </TMMove>
+      <TMMove>
+        <Name>Protect</Name>
+      </TMMove>
+    </TMMoves>
+    <EggMoves />
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Bug Bite</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Snore</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

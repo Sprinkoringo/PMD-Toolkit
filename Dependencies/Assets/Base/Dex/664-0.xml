@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.3</Height>
+    <Weight>2.5</Weight>
+    <Male>500</Male>
+    <Female>500</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>38</HP>
+    <Atk>35</Atk>
+    <Def>40</Def>
+    <SpAtk>27</SpAtk>
+    <SpDef>25</SpDef>
+    <Speed>35</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Bug</Type1>
+    <Type2>None</Type2>
+    <Ability1>Shield Dust</Ability1>
+    <Ability2>Compound Eyes</Ability2>
+    <Ability3>Friend Guard</Ability3>
+    <Exp>40</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Tackle</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>String Shot</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>6</Level>
+        <Name>Stun Spore</Name>
+      </LevelUpMove>
+      <LevelUpMove>
+        <Level>15</Level>
+        <Name>Bug Bite</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves />
+    <EggMoves>
+      <EggMove>
+        <Name>Poison Powder</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Rage Powder</Name>
+      </EggMove>
+      <EggMove>
+        <Name>Stun Spore</Name>
+      </EggMove>
+    </EggMoves>
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

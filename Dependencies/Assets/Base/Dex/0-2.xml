@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Shadow</FormName>
+    <Height>0.1</Height>
+    <Weight>0.1</Weight>
+    <Male>0</Male>
+    <Female>0</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>1</HP>
+    <Atk>1</Atk>
+    <Def>1</Def>
+    <SpAtk>1</SpAtk>
+    <SpDef>1</SpDef>
+    <Speed>1</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>None</Type1>
+    <Type2>None</Type2>
+    <Ability1>None</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>None</Ability3>
+    <Exp>0</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Struggle</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves />
+    <EggMoves />
+    <DWMoves />
+    <EventMoves />
+  </Moves>
+</FormEntry>

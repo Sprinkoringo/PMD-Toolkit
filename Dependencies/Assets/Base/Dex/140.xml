@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Kabuto</Name>
+    <SpeciesName>Shellfish</SpeciesName>
+    <GrowthGroup>MediumFast</GrowthGroup>
+    <EggGroup1>Water 1</EggGroup1>
+    <EggGroup2>Water 3</EggGroup2>
+  </General>
+</DexEntry>

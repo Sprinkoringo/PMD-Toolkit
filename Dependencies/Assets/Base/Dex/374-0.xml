@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormEntry>
+  <General>
+    <FormName>Normal</FormName>
+    <Height>0.6</Height>
+    <Weight>95.2</Weight>
+    <Male>0</Male>
+    <Female>0</Female>
+    <BodyStyle />
+  </General>
+  <BaseStats>
+    <HP>40</HP>
+    <Atk>55</Atk>
+    <Def>80</Def>
+    <SpAtk>35</SpAtk>
+    <SpDef>60</SpDef>
+    <Speed>30</Speed>
+  </BaseStats>
+  <FormInfo>
+    <Type1>Steel</Type1>
+    <Type2>Psychic</Type2>
+    <Ability1>Clear Body</Ability1>
+    <Ability2>None</Ability2>
+    <Ability3>Light Metal</Ability3>
+    <Exp>60</Exp>
+  </FormInfo>
+  <Moves>
+    <LevelUpMoves>
+      <LevelUpMove>
+        <Level>0</Level>
+        <Name>Take Down</Name>
+      </LevelUpMove>
+    </LevelUpMoves>
+    <TMMoves />
+    <EggMoves />
+    <DWMoves />
+    <EventMoves>
+      <EventMove>
+        <Name>Zen Headbutt</Name>
+      </EventMove>
+      <EventMove>
+        <Name>Iron Head</Name>
+      </EventMove>
+    </EventMoves>
+  </Moves>
+</FormEntry>

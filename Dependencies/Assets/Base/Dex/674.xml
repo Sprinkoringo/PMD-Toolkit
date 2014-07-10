@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DexEntry>
+  <General>
+    <Name>Pancham</Name>
+    <SpeciesName>Playful</SpeciesName>
+    <GrowthGroup>MediumFast</GrowthGroup>
+    <EggGroup1>Field</EggGroup1>
+    <EggGroup2>Human-Like</EggGroup2>
+  </General>
+</DexEntry>
