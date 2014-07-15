@@ -122,7 +122,6 @@
             this.vsItemScroll.Name = "vsItemScroll";
             this.vsItemScroll.Size = new System.Drawing.Size(17, 360);
             this.vsItemScroll.TabIndex = 3;
-            this.vsItemScroll.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vsItemScroll_Scroll);
             this.vsItemScroll.ValueChanged += new System.EventHandler(this.vsItemScroll_ValueChanged);
             // 
             // txtName

@@ -1,28 +1,4 @@
-﻿/*The MIT License (MIT)
-
-Copyright (c) 2014 Sprinkoringo
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-*/
-
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,18 +11,22 @@ namespace PMDToolkit.Logic.Gameplay {
     public class Input {
 
         public enum InputType {
-            Z,
-            X,
-            C,
-            A,
-            S,
-            D,
-            Q,
-            W,
-            Enter
+            Cancel,
+            Confirm,
+            Pickup,
+            Moves,
+            Move1,
+            Move2,
+            Move3,
+            Move4,
+            Turn,
+            Diagonal,
+            ItemMenu,
+            MoveMenu,
+            Menu
         }
 
-        private bool[] inputStates = new bool[9];
+        private bool[] inputStates = new bool[13];
 
         private Direction8 dir = Maps.Direction8.None;
 
@@ -102,17 +82,21 @@ namespace PMDToolkit.Logic.Gameplay {
 
             dir = Operations.GetDirection8(new Loc2D(), dirLoc);
 
-            inputStates[(int)InputType.X] = keyboard[Key.X];
-            inputStates[(int)InputType.Z] = keyboard[Key.Z];
-            inputStates[(int)InputType.C] = keyboard[Key.C];
-            inputStates[(int)InputType.A] = keyboard[Key.A];
-            inputStates[(int)InputType.S] = keyboard[Key.S];
-            inputStates[(int)InputType.D] = keyboard[Key.D];
+            inputStates[(int)InputType.Confirm] = keyboard[Key.F];
+            inputStates[(int)InputType.Cancel] = keyboard[Key.BackSpace];
+            inputStates[(int)InputType.Pickup] = keyboard[Key.Enter];
+            inputStates[(int)InputType.Moves] = keyboard[Key.Q];
+            inputStates[(int)InputType.Move1] = keyboard[Key.W];
+            inputStates[(int)InputType.Move2] = keyboard[Key.A];
+            inputStates[(int)InputType.Move3] = keyboard[Key.S];
+            inputStates[(int)InputType.Move4] = keyboard[Key.D];
+            inputStates[(int)InputType.Turn] = keyboard[Key.T];
+            inputStates[(int)InputType.Diagonal] = keyboard[Key.R];
 
-            inputStates[(int)InputType.Q] = keyboard[Key.Q];
-            inputStates[(int)InputType.W] = keyboard[Key.W];
+            inputStates[(int)InputType.ItemMenu] = keyboard[Key.Number1];
+            inputStates[(int)InputType.MoveMenu] = keyboard[Key.Number2];
 
-            inputStates[(int)InputType.Enter] = (keyboard[Key.Enter]);
+            inputStates[(int)InputType.Menu] = (keyboard[Key.Escape]);
 
             LeftMouse = mouse[MouseButton.Left];
             RightMouse = mouse[MouseButton.Right];
