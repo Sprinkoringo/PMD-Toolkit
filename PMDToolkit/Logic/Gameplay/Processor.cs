@@ -1,4 +1,28 @@
-﻿using System;
+﻿/*The MIT License (MIT)
+
+Copyright (c) 2014 PMU Staff
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -410,27 +434,30 @@ namespace PMDToolkit.Logic.Gameplay {
             
             Command command = new Command(Command.CommandType.None);
 
+            bool jump = false;
             bool spell = false;
             bool turn = false;
             bool diagonal = false;
             
+#if GAME_MODE
             //menu button presses
-            if (CurrentInput[Input.InputType.Menu] && !PrevInput[Input.InputType.Menu]) {
+            if (CurrentInput[Input.InputType.Enter] && !PrevInput[Input.InputType.Enter]) {
                 MenuManager.Menus.Insert(0, new MainMenu());
-            } else if (CurrentInput[Input.InputType.ItemMenu] && !PrevInput[Input.InputType.ItemMenu]) {
+            } else if (CurrentInput[Input.InputType.Q] && !PrevInput[Input.InputType.Q]) {
                 MenuManager.Menus.Insert(0, new ItemMenu());
-            } else if (CurrentInput[Input.InputType.MoveMenu] && !PrevInput[Input.InputType.MoveMenu]) {
+            } else if (CurrentInput[Input.InputType.W] && !PrevInput[Input.InputType.W]) {
                 MenuManager.Menus.Insert(0, new SpellMenu());
             } else
+#endif
                 //multi-button presses
-            if (CurrentInput[Input.InputType.Moves]) {
-                if (CurrentInput[Input.InputType.Move1] && !PrevInput[Input.InputType.Move1]) {
+            if (CurrentInput[Input.InputType.A]) {
+                if (CurrentInput[Input.InputType.S] && !PrevInput[Input.InputType.S]) {
                     command = new Logic.Gameplay.Command(Logic.Gameplay.Command.CommandType.Spell, 0);
-                } else if (CurrentInput[Input.InputType.Move2] && !PrevInput[Input.InputType.Move2]) {
+                } else if (CurrentInput[Input.InputType.D] && !PrevInput[Input.InputType.D]) {
                     command = new Logic.Gameplay.Command(Logic.Gameplay.Command.CommandType.Spell, 1);
-                } else if (CurrentInput[Input.InputType.Move3] && !PrevInput[Input.InputType.Move3]) {
+                } else if (CurrentInput[Input.InputType.X] && !PrevInput[Input.InputType.X]) {
                     command = new Logic.Gameplay.Command(Logic.Gameplay.Command.CommandType.Spell, 2);
-                } else if (CurrentInput[Input.InputType.Move4] && !PrevInput[Input.InputType.Move4]) {
+                } else if (CurrentInput[Input.InputType.C] && !PrevInput[Input.InputType.C]) {
                     command = new Logic.Gameplay.Command(Logic.Gameplay.Command.CommandType.Spell, 3);
                 } else {
                     //keep move display
@@ -441,20 +468,35 @@ namespace PMDToolkit.Logic.Gameplay {
                     }
                 }
             } else {
-                if (CurrentInput[Input.InputType.Turn]) {
+                if (CurrentInput[Input.InputType.Z]) {
+                    jump = true;
+                }
+                if (CurrentInput[Input.InputType.S]) {
                     turn = true;
                 }
-                if (CurrentInput[Input.InputType.Diagonal]) {
+                if (CurrentInput[Input.InputType.D]) {
                     diagonal = true;
                 }
 
                 //single button presses
-                if (CurrentInput[Input.InputType.Confirm] && !PrevInput[Input.InputType.Confirm]) {
-                    command = new Command(Command.CommandType.Attack);
+                if (CurrentInput[Input.InputType.X] && !PrevInput[Input.InputType.X]) {
+                    if (jump) {
+                        command = new Command(Command.CommandType.AltAttack);
+                        command.AddArg((int)character.CharDir);
+                        command.AddArg(1);
+                    } else {
+                        command = new Command(Command.CommandType.Attack);
+                    }
+                    jump = false;
                     turn = false;
                     diagonal = false;
-                } else if (CurrentInput[Input.InputType.Pickup] && !PrevInput[Input.InputType.Pickup]) {
-                    command = new Command(Command.CommandType.Pickup);
+                } else if (CurrentInput[Input.InputType.C] && !PrevInput[Input.InputType.C]) {
+                    if (jump) {
+                        command = new Command(Command.CommandType.Wait);
+                    } else {
+                        command = new Command(Command.CommandType.Pickup);
+                    }
+                    jump = false;
                     turn = false;
                     diagonal = false;
                 }//directions
@@ -467,6 +509,7 @@ namespace PMDToolkit.Logic.Gameplay {
                         else if (InputTime > RenderTime.FromMillisecs(20) || PrevInput.Direction == Direction8.None)
                             cmdType = Command.CommandType.Dir;
                         if (InputTime > RenderTime.FromMillisecs(60) || Display.Screen.DebugSpeed == Display.Screen.GameSpeed.Instant) cmdType = Command.CommandType.Move;
+                        if (jump) cmdType = Command.CommandType.AltAttack;
                         if (turn) cmdType = Command.CommandType.Dir;
 
                         if (!diagonal || Operations.IsDiagonal(CurrentInput.Direction))
@@ -476,15 +519,19 @@ namespace PMDToolkit.Logic.Gameplay {
                         }
                         if (!turn)
                         {
+                            jump = false;
                             diagonal = false;
                         }
                     }
                 }
             }
 
+#if GAME_MODE
+            Display.Screen.Jump = jump;
             Display.Screen.Spell = spell;
             Display.Screen.Turn = turn;
             Display.Screen.Diagonal = diagonal;
+#endif
             ProcessDecision(command, character, ref moveMade);
         }
 
@@ -513,6 +560,7 @@ namespace PMDToolkit.Logic.Gameplay {
                         //Display.Screen.ResultList.Add(new Results.EndTag());
                     }
                     break;
+                    #if GAME_MODE
                     case Command.CommandType.Attack: {
                         Display.Screen.BeginConcurrent();
                         //takes a dir argument
@@ -557,6 +605,7 @@ namespace PMDToolkit.Logic.Gameplay {
                         UseMove(character, command[0], ref moveMade);
                     }
                     break;
+#endif
                     case Command.CommandType.Wait:
                     {
                         moveMade = true;
@@ -955,7 +1004,6 @@ namespace PMDToolkit.Logic.Gameplay {
         {
             character.CharData = data;
             Display.Screen.AddResult(new Results.SpawnCharacter(character, CharIndex(character)));
-            Display.Screen.AddResult(new Results.CreateAction(CharIndex(character), character, Display.Screen.FocusedCharacter.CurrentAction, Display.Screen.FocusedCharacter.ActionLoop, false));
         }
 
 

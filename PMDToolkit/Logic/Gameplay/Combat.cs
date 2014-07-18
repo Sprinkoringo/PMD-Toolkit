@@ -1,4 +1,28 @@
-﻿using System;
+﻿/*The MIT License (MIT)
+
+Copyright (c) 2014 PMU Staff
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -85,6 +109,15 @@ namespace PMDToolkit.Logic.Gameplay {
             switch (rangeType) {
                 case Enums.RangeType.Front:
                 case Enums.RangeType.FrontUntil:
+                case Enums.RangeType.TileInFrontUntil: {//foe in front until
+                        #region FrontOfUserUntil
+                        Loc2D endLoc = startLoc;
+                        Operations.MoveInDirection8(ref endLoc, direction, distance);
+                        if (Operations.IsInBound(CurrentMap.Width, CurrentMap.Height, endLoc.X, endLoc.Y))
+                            returnList.Add(endLoc);
+                        #endregion
+                    }
+                    break;
                 case Enums.RangeType.Room: {//room
                         #region Room
                         for (int x = startLoc.X - distance; x <= startLoc.X + distance; x++) {
@@ -405,6 +438,35 @@ namespace PMDToolkit.Logic.Gameplay {
                         #endregion
                     }
                     break;
+                case Enums.RangeType.TileInFrontUntil: {//tile in front
+                    #region Tile-in-Front
+                        Loc2D targetLoc = userLoc;
+                        for (int r = 0; r <= range.Distance; r++)
+                        {
+                            if (TileBlocked(targetLoc, Enums.WalkMode.Air))
+                            {
+                                range.Distance = r;
+                                break;
+                            }
+                            Operations.MoveInDirection8(ref targetLoc, userDir, 1);
+                        }
+
+                        Operations.MoveInDirection8(ref userLoc, userDir, range.Distance);
+                        for (int i = 0; i < MAX_TEAM_SLOTS; i++) {
+                            if (IsTargeted(user, Players[i], range.HitsSelf, range.HitsFriend, range.HitsFoe) && userLoc == Players[i].CharLoc) {
+                                targetlist.Add(new Target(Players[i], GetMatchup(user, Players[i]), range.Distance));
+                            }
+                        }
+
+                        for (int i = 0; i < BasicMap.MAX_NPC_SLOTS; i++) {
+                            if (IsTargeted(user, Npcs[i], range.HitsSelf, range.HitsFriend, range.HitsFoe) && userLoc == Npcs[i].CharLoc) {
+                                targetlist.Add(new Target(Npcs[i], GetMatchup(user, Npcs[i]), range.Distance));
+                            }
+                        }
+                        targetlist.Add(new TileTarget(userLoc, range.Distance));
+                        #endregion
+                    }
+                    break;
             }
 
             return targetlist;
@@ -423,7 +485,12 @@ namespace PMDToolkit.Logic.Gameplay {
             setup.moveIndex = 0;
             HandleAttack(setup, ref moveMade);
         }
-        
+
+        public static void AltAttack(ActiveChar character, ref bool moveMade) {
+
+
+        }
+
         public static void UseMove(ActiveChar character, int moveSlot, ref bool moveMade) {
 
             BattleSetup setup = new BattleSetup();
@@ -687,6 +754,12 @@ namespace PMDToolkit.Logic.Gameplay {
 
             #region Defender Modifiers
 
+            if (setup.Defender.Status == Enums.StatusAilment.Freeze) {
+                //change into a knockback attack
+                setup.Move.Power = 0;
+                setup.Move.Effect = 6;
+                setup.Move.EndSound = 0;
+            }
 
             #endregion
 
@@ -747,6 +820,12 @@ namespace PMDToolkit.Logic.Gameplay {
 
             #region Ability Effects
 
+            if (setup.Attacker.HasAbility("Slow Body") && setup.Move.Contact) {
+                AddExtraStatus(setup.Defender, "MovementSpeed", 5, -1, -1);
+            }
+            if (setup.Defender.HasAbility("Slow Body") && setup.Move.Contact) {
+                AddExtraStatus(setup.Attacker, "MovementSpeed", 5, -1, -1);
+            }
 
 
             #endregion
@@ -1167,7 +1246,18 @@ namespace PMDToolkit.Logic.Gameplay {
 
         public static void DamageTile(Loc2D loc) {
             Tile tile = CurrentMap.MapArray[loc.X, loc.Y];
-
+            //if (tile.TileFoliage.Type != Enums.FoliageType.None) {
+            //    switch (tile.TileFoliage.Type) {
+            //        case Enums.FoliageType.Flower:
+            //        case Enums.FoliageType.Clover: {
+            //                tile.TileFoliage = new Foliage();
+            //                Display.Screen.AddResult(new Results.SE("magic130"));
+            //                Display.Screen.AddResult(new Results.SetTile(CurrentMap, loc));
+            //                return;
+            //            }
+            //            break;
+            //    }
+            //}
         }
 
 
@@ -1195,6 +1285,10 @@ namespace PMDToolkit.Logic.Gameplay {
                 case Enums.RangeType.FlyInArc: {
                         //extra case for hitting no one
                         Operations.MoveInDirection8(ref endLoc, setup.Attacker.CharDir, 2);
+                    }
+                    break;
+                case Enums.RangeType.TileInFrontUntil: {
+                        Operations.MoveInDirection8(ref endLoc, setup.Attacker.CharDir, setup.Move.Range.Distance);
                     }
                     break;
             }
@@ -1330,8 +1424,27 @@ namespace PMDToolkit.Logic.Gameplay {
                         }
                     }
                     break;
+                case Enums.RangeType.TileInFrontUntil: {
+                        Operations.MoveInDirection8(ref endLoc, setup.Attacker.CharDir, setup.Move.Range.Distance);
+                    }
+                    break;
             }
 
+            //draw user action
+            //if (setup.Move.MidUserAnim.ActionType == Display.CharSprite.ActionType.Jump || setup.Move.MidUserAnim.ActionType == Display.CharSprite.ActionType.JumpHit) {
+            //    if (setup.AllTargets.Targets.Count > 0 || WasAttackBlockedByObstacle(setup)) {
+            //        Results.CreateAction result = new Results.CreateAction(CharIndex(setup.Attacker), Display.CharSprite.ActionType.JumpHit);
+            //            //setup.Move.Range.Distance, 0, 0);
+            //        Display.Screen.AddResult(result);
+            //        if (result.Delay.ToMillisecs() > maxStallTime)
+            //            maxStallTime = result.Delay.ToMillisecs();
+            //        sameThreadPauseTime = result.FrameLength.ToMillisecs();
+            //        result.InstantPass = true;
+            //    } else {
+            //        Display.Screen.AddResult(new Results.CreateAction(CharIndex(setup.Attacker), Display.CharSprite.ActionType.Jump));
+            //            //setup.Move.Range.Distance, 0, 0));
+            //    }
+            //} else 
             if (setup.Move.MidUserAnim.ActionType != Display.CharSprite.ActionType.None) {
                 Results.CreateAction result = new Results.CreateAction(CharIndex(setup.Attacker), setup.Attacker, setup.Move.MidUserAnim.ActionType);
                     //setup.Move.MidUserAnim.Anim1, setup.Move.MidUserAnim.Anim2, setup.Move.MidUserAnim.Anim3);
